@@ -15,9 +15,9 @@ export default function Home() {
           na Ctrl+Play
         </p>
       </div>
-      <div className="flex flex-col-reverse md:flex-row items-center gap-10 align-center justify-center ">
+      <div className="flex flex-col-reverse md:flex-row items-start gap-10 align-center justify-center ">
         <Form />
-        <div className="relative w-fit max-h-fit m-0 p-0 w-80 h-96 md:w-[416px] md:h-[506px] flex items-center justify-center">
+        <div className="relative w-fit max-h-fit m-0 p-0 w-80 h-96 md:w-[375px] md:h-[456px] flex items-center justify-center">
           <div className="badge badge-primary badge-lg absolute top-[23%] -right-[10%] z-10">
             + creatividade
           </div>
