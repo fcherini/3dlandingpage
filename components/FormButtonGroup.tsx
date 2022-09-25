@@ -1,7 +1,7 @@
 export default function FormButtonGroup() {
   return (
     <div className="flex w-full flex-col">
-      <label className="label px-0 py-1">
+      <label className="label p-0 pb-0.5">
         <span className="label-text text-14 text-neutral">Idade do aluno</span>
       </label>
       <div className="flex gap-2 w-full">
