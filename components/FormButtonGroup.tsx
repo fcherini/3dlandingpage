@@ -4,7 +4,7 @@ export default function FormButtonGroup() {
       <label className="label p-0 pb-0.5">
         <span className="label-text text-14">Idade do aluno</span>
       </label>
-      <div className="grid-cols-1 grid md:grid-cols-2 lg:grid-cols-4 gap-2 w-full">
+      <div className="grid-cols-2 grid lg:grid-cols-4 gap-2 w-full">
         <button className="text-primary-content p-1 grow btn-sm btn btn-primary font-poppins font-600 text-14">
           6 ou menos
         </button>
