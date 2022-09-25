@@ -72,8 +72,8 @@ module.exports = {
         800: 800,
         900: 900,
       },
-      width: {
-        vw: '100vw',
+      height: {
+        fit: 'fit-content',
       },
     },
   },
