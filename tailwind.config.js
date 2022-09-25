@@ -10,6 +10,8 @@ module.exports = {
           primary: '#2492F5',
           secondary: '#9378FF',
           'primary-content': '#fff',
+          accent: '#9FFFF9',
+          'base-content': '#334155',
         },
         synthwave: {
           ...require('daisyui/src/colors/themes')['[data-theme=synthwave]'],
@@ -22,8 +24,15 @@ module.exports = {
         },
         cyberpunk: {
           ...require('daisyui/src/colors/themes')['[data-theme=cyberpunk]'],
-          primary: '#fbff12',
-          'base-100': '#41ead4',
+          primary: '#FFA978',
+          secondary: '#FF78B9',
+          accent: '#FFE178',
+          'base-100': '#fafafa',
+        },
+        corporate: {
+          ...require('daisyui/src/colors/themes')['[data-theme=corporate]'],
+          secondary: '#fe7f2d',
+          'secondary-content': '#ffffff',
         },
       },
       'night',
