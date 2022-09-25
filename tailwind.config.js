@@ -8,11 +8,22 @@ module.exports = {
         light: {
           ...require('daisyui/src/colors/themes')['[data-theme=light]'],
           primary: '#2492F5',
+          secondary: '#9378FF',
           'primary-content': '#fff',
         },
         synthwave: {
           ...require('daisyui/src/colors/themes')['[data-theme=synthwave]'],
           primary: '#9378FF',
+        },
+        pastel: {
+          ...require('daisyui/src/colors/themes')['[data-theme=pastel]'],
+          primary: '#D2CFFB',
+          secondary: '#A6D4FD',
+        },
+        cyberpunk: {
+          ...require('daisyui/src/colors/themes')['[data-theme=cyberpunk]'],
+          primary: '#fbff12',
+          'base-100': '#41ead4',
         },
       },
       'night',
