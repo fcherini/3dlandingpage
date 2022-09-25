@@ -1,4 +1,22 @@
+const colors = require('tailwindcss/colors');
+
 module.exports = {
+  daisyui: {
+    styled: true,
+    themes: [
+      {
+        mytheme: {
+          primary: '#2492F5',
+          secondary: '#A680FF',
+          accent: '#95A8FF',
+          neutral: '#3d4451',
+          'base-100': '#ffffff',
+        },
+      },
+      'dark',
+      'cupcake',
+    ],
+  },
   theme: {
     extend: {
       fontFamily: {
@@ -27,8 +45,11 @@ module.exports = {
         800: 800,
         900: 900,
       },
+      height: {
+        vh: '100vh',
+      },
       colors: {
-        blue: {
+        primary: {
           50: '#F9FCFF',
           100: '#E9F4FE',
           200: '#CCE7FE',
@@ -40,7 +61,7 @@ module.exports = {
           800: '#006DD1',
           900: '#0461B7',
         },
-        purple: {
+        secondary: {
           50: '#FAF8FF',
           100: '#F0EAFF',
           200: '#E8DFFD',
@@ -87,6 +108,10 @@ module.exports = {
       },
     },
   },
-  content: ['./pages/**/*.{js,ts,jsx,tsx}'],
+
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+  ],
   plugins: [require('daisyui')],
 };
