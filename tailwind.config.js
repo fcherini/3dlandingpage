@@ -1,10 +1,6 @@
 const colors = require('tailwindcss/colors');
 
 module.exports = {
-  content: [
-    './pages/*.{js,jsx,html, ts, tsx}',
-    './components/*.{js,jsx,html, ts, tsx}',
-  ],
   daisyui: {
     styled: true,
     themes: [
@@ -48,6 +44,9 @@ module.exports = {
         700: 700,
         800: 800,
         900: 900,
+      },
+      height: {
+        vh: '100vh',
       },
       colors: {
         primary: {
@@ -109,6 +108,9 @@ module.exports = {
       },
     },
   },
-  content: ['./pages/**/*.{js,ts,jsx,tsx}'],
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+  ],
   plugins: [require('daisyui')],
 };

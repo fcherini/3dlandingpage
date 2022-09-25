@@ -1,3 +1,3 @@
-# 3dlandingpage
+# Acquisition Page
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/daisyui-nextjs-fqg6t2)
+[See code on StackBlitz](https://stackblitz.com/edit/daisyui-nextjs-fqg6t2)

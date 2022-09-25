@@ -9,3 +9,7 @@ body {
   color: '#334155';
   font-family: 'Rubik', sans-serif;
 }
+
+.btn {
+  @apply normal-case;
+}
