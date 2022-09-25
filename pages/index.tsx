@@ -18,13 +18,13 @@ export default function Home() {
       <div className="flex flex-col-reverse md:flex-row items-center md:items-start gap-10 align-center justify-center ">
         <Form />
         <div className="relative w-fit max-h-fit m-0 p-0 w-80 h-96 md:w-[375px] md:h-[456px] flex items-center justify-center">
-          <div className="badge badge-primary badge-lg absolute top-[23%] -right-[10%] z-10">
+          <div className="badge badge-primary badge-lg absolute top-[23%] -right-[6%] z-10">
             + creatividade
           </div>
           <div className="badge badge-accent badge-lg absolute left-[25%] md:left-[30%] bottom-1 z-10">
             + raciocínio lógico
           </div>
-          <div className="badge badge-secondary badge-lg absolute -left-[15%] md:-left-[5%] top-[65%] z-10">
+          <div className="badge badge-secondary badge-lg absolute -left-[7%] md:-left-[5%] top-[65%] z-10">
             + inglês técnico
           </div>
           <Animation />
