@@ -17,7 +17,12 @@ export default function Home() {
       </div>
       <div className="flex items-center gap-3 align-center justify-center">
         <Form />
-        <Animation />
+        <div>
+          <div className="badge badge-secondary badge-lg absolute">
+            + creatividade
+          </div>
+          <Animation />
+        </div>
       </div>
     </div>
   );

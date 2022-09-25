@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <select
-        className="absolute bg-primary text-primary-content rounded-lg px-2 py-0.5 m-1"
+        className="absolute bg-primary text-primary-content rounded-lg px-2 py-0.5 m-2"
         data-choose-theme
       >
         <option value="">Light</option>
