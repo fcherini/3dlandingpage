@@ -5,7 +5,7 @@ import SelectInput from './SelectInput';
 
 export default function Form() {
   return (
-    <div className="flex flex-col gap-3 items-center w-[432px]">
+    <div className="flex flex-col gap-3 items-center w-full md:w-1/2 lg:w-[432px] max-w-[432px]">
       <FieldInput
         label="Nome do responsável"
         placeholder="Digite o nome do responsável"

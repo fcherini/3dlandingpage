@@ -72,8 +72,8 @@ module.exports = {
         800: 800,
         900: 900,
       },
-      height: {
-        vh: '100vh',
+      width: {
+        vw: '100vw',
       },
     },
   },
