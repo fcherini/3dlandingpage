@@ -9,7 +9,7 @@ export default function FieldInput(props: FieldInputProps) {
   return (
     <div className="form-control w-full">
       <label className="label p-0 pb-0.5">
-        <span className="label-text text-14 text-neutral">{props.label}</span>
+        <span className="label-text text-14">{props.label}</span>
       </label>
       <input
         type="text"

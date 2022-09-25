@@ -22,7 +22,7 @@ export default function Form() {
       <FormButtonGroup />
       <FieldInput label="Cidade" placeholder="Digite ou selecione a cidade" />
       <div className="flex  flex-col gap-1">
-        <p className="text-neutral text-16 leading-tight">
+        <p className=" text-16 leading-tight">
           Possui acesso a um computador ou notebook com microfone e webcam?
         </p>
         <div className="flex gap-8">
@@ -32,7 +32,7 @@ export default function Form() {
               name="radio-2"
               className="radio radio-primary w-4 h-4"
             />
-            <p className="text-neutral">Sim</p>
+            <p>Sim</p>
           </div>
           <div className="flex gap-3 items-center">
             <input
@@ -40,12 +40,12 @@ export default function Form() {
               name="radio-2"
               className="radio radio-primary w-4 h-4"
             />
-            <p className="text-neutral">Não</p>
+            <p>Não</p>
           </div>
         </div>
       </div>
 
-      <button className="btn btn-sm text-white btn-primary font-poppins text-16 rounded-md w-fit">
+      <button className="btn btn-sm text-primary-content btn-primary font-poppins text-16 w-fit">
         Continuar
       </button>
     </div>
