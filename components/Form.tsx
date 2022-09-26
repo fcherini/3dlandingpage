@@ -44,7 +44,6 @@ export default function Form() {
           </div>
         </div>
       </div>
-
       <button className="btn btn-sm text-primary-content border-none bg-gradient-to-tr from-primary to-secondary font-poppins text-16 w-fit">
         Continuar
       </button>
